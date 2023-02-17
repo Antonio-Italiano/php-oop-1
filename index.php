@@ -1,5 +1,13 @@
 <php 
 
+class Movie {
+    public $title;
+    public $director;
+    public $weft;
+    public $published;
+    public $genre;    
+}
+
 >
 
 <!DOCTYPE html>
@@ -8,7 +16,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Movie</title>
+    <title>PHP Movie</title>
 </head>
 <body>
     
