@@ -1,4 +1,4 @@
-<php 
+<?php 
 
 class Movie {
     public $title;
@@ -6,9 +6,21 @@ class Movie {
     public $weft;
     public $published;
     public $genre;    
+    public $resolution;
+
+    public function __construct($title, $director, $weft, $published, $genre, $resolution = '4k') 
+    {
+        $this->title = $title;
+        $this->director = $director;
+        $this->weft = $weft;
+        $this->published = $published;
+        $this->genre = $genre;
+        $this->resolution = $resolution;
+
+    }
 }
 
->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
